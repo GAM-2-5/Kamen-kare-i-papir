@@ -11,7 +11,7 @@ while True: #beskonačna petlja
 
     izbor = int(input('Sad je tvoj red: ')) #unos odabira (ako je odabir izvan domene, ponoviti odabir)
     while izbor > 3 or izbor < 1: 
-        izbor = int(input('Unesi svoj izbor ovdje:'))
+        izbor = int(input('Odabir je pogresan. Ponovi svoj izbor ovdje:'))
         
     if izbor == 1: 
         izbor_i = 'KAMEN'
